@@ -37,6 +37,7 @@ public:
             });
             m_condition.notify_one();
         }
+        
         return res;
     }
     static std::mutex m_outputMutex;
